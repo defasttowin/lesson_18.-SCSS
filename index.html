@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Lesson_18. SCSS</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<main class="main">
+				<div class="main-page">
+					<header class="header">
+						<div class="header__container">
+							<div class="header__logo-container">
+								<a href="" class="header__logo"><img src=".//img/hedaer/hedaer-logo-group.svg" alt="logo" /></a>
+							</div>
+							<nav class="header__menu menu-header">
+								<div class="menu-header__burger burger-header-menu">
+									<input class="burger-header-menu__input" id="burger" type="checkbox" />
+									<label class="burger-header-menu__label" for="burger">Menu</label>
+									<div class="burger-header-menu__element burger-header-menu__element_first"></div>
+									<div class="burger-header-menu__element burger-header-menu__element_second"></div>
+									<div class="burger-header-menu__element burger-header-menu__element_third"></div>
+									<div class="burger-header-menu__element burger-header-menu__element_fourth"></div>
+									<ul class="burger-header-menu__list">
+										<li class="burger-header-menu__item">
+											<a href="" class="burger-header-menu__link burger-header-menu__link_green">Menu</a>
+										</li>
+										<li class="burger-header-menu__item">
+											<a href="" class="burger-header-menu__link">Recipes</a>
+										</li>
+										<li class="burger-header-menu__item">
+											<a href="" class="burger-header-menu__link">Chefs</a>
+										</li>
+										<li class="burger-header-menu__item">
+											<a href="" class="burger-header-menu__link">Contacts</a>
+										</li>
+									</ul>
+								</div>
+								<ul class="menu-header__list">
+									<li class="menu-header__item">
+										<a href="" class="menu-header__link menu-header__link_green">Menu</a>
+									</li>
+									<li class="menu-header__item">
+										<a href="" class="menu-header__link">Recipes</a>
+									</li>
+									<li class="menu-header__item">
+										<a href="" class="menu-header__link">Chefs</a>
+									</li>
+									<li class="menu-header__item">
+										<a href="" class="menu-header__link">Contacts</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</header>
+					<div class="page">
+						<div class="page__container">
+							<div class="page__header">
+								<h1 class="page__title">Your <span>favourite food</span> delivered <span>hot & fresh</span></h1>
+								<p class="page__text">HEALTHY SWITCHER chefs do all the prep work, like peeling, chopping & marinating, so you can cook a fresh homemade dinner in just 15 minutes.</p>
+								<a href="" class="page__button">Order Now</a>
+							</div>
+							<div class="page__row">
+								<div class="page__item">
+									<div class="item-page">
+										<div class="item-page__icon">
+											<img src="img/page/time.svg" alt="time" />
+										</div>
+										<div class="item-page__title">Today 10:00 am - 7:00 pm</div>
+										<div class="item-page__text">Working hours</div>
+									</div>
+								</div>
+								<div class="page__item">
+									<div class="item-page">
+										<div class="item-page__icon">
+											<img src="img/page/location.svg" alt="location" />
+										</div>
+										<a href="https://www.google.com/search?q=Velyka+Vasylkivska+100+%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B&sxsrf=ALiCzsYgoTmnj9eLOF_XtaskNcLy-cuhpg%3A1651773360147&ei=sA90YrDECOqGxc8PrcOIuAo&ved=0ahUKEwiw3IWj98j3AhVqQ_EDHa0hAqcQ4dUDCA4&uact=5&oq=Velyka+Vasylkivska+100+%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAgjECc6BggAEBYQHkoECEEYAEoECEYYAFCtBFjsH2DMIGgBcAF4AIABpgGIAaoQkgEEMC4xNZgBAKABAcgBCMABAQ&sclient=gws-wiz#" class="item-page__title item-page__title_adress">Velyka Vasylkivska 100</a>
+										<div class="item-page__text">Get Directions</div>
+									</div>
+								</div>
+								<div class="page__item">
+									<div class="item-page">
+										<div class="item-page__icon">
+											<img src="img/page/call.svg" alt="phone" />
+										</div>
+										<a href="tel:+38(063)8332415" class="item-page__title item-page__title_tel">+38 (063)833 24 15</a>
+										<div class="item-page__text">Call Online</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="work">
+					<div class="work__container">
+						<h2 class="work__title title title_work">How it Works</h2>
+						<div class="work__row">
+							<div class="work__item">
+								<a href="" class="item-work">
+									<div class="item-work__title">Pick meals</div>
+									<div class="item-work__text">Choose your meals from our diverse weekly menu. Find gluten or dairy free, low carb & veggie options.</div>
+								</a>
+							</div>
+							<div class="work__item">
+								<a href="" class="item-work">
+									<div class="item-work__title">Choose how often</div>
+									<div class="item-work__text">Our team of chefs do the prep work - no more chopping, measuring, or sink full of dishes!</div>
+								</a>
+							</div>
+							<div class="work__item">
+								<a href="" class="item-work">
+									<div class="item-work__title">fast deliveries</div>
+									<div class="item-work__text">Your freshly prepped 15-min dinner kits arrive on your doorstep in a refrigerated box.</div>
+								</a>
+							</div>
+							<div class="work__item">
+								<a href="" class="item-work">
+									<div class="item-work__title">tasty meals</div>
+									<div class="item-work__text">Gobble makes cooking fast, so you have more time to unwind and be with family.</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dishes">
+					<div class="dishes__container">
+						<h2 class="dishes__title title title_dish">Dish Of The Day</h2>
+						<div class="dishes__row">
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="" class="item-dishes__image">
+										<img src="img/dishes/01.jpg" alt="01" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-1" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-1" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-1" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-1" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-1" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="#" class="item-dishes__image">
+										<img src="img/dishes/02.jpg" alt="02" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-2" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-2" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-2" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-2" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-2" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="#" class="item-dishes__image">
+										<img src="img/dishes/03.jpg" alt="03" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-3" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-3" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-3" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-3" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-3" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="#" class="item-dishes__image">
+										<img src="img/dishes/04.jpg" alt="04" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-4" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-4" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-4" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-4" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-4" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="#" class="item-dishes__image">
+										<img src="img/dishes/05.jpg" alt="05" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-5" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-5" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-5" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-5" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-5" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dishes__item">
+								<div class="item-dishes">
+									<a href="" class="item-dishes__back">
+										<img src="img/dishes/arrow.svg" alt="back" />
+									</a>
+									<a href="#" class="item-dishes__image">
+										<img src="img/dishes/06.jpg" alt="06" />
+									</a>
+									<div class="item-dishes__content">
+										<a href="#" class="item-dishes__title">Featured Meal</a>
+										<div class="item-dishes__subtitle">Served with french fries + drink</div>
+										<div class="item-dishes__text">Choice of: Coke, Fanta, Sprite, Upgrade to large fries, Add whopper patty, Add Tender crisp patty and more...</div>
+										<div class="item-dishes__bottom">
+											<div class="item-dishes__rating rating">
+												<div class="rating__group">
+													<input class="rating__star" type="radio" name="rating-6" aria-label="Ужасно" />
+													<input class="rating__star" type="radio" name="rating-6" aria-label="Плохо" />
+													<input class="rating__star" type="radio" name="rating-6" aria-label="Нормально" />
+													<input class="rating__star" type="radio" name="rating-6" aria-label="Хорошо" />
+													<input class="rating__star" type="radio" name="rating-6" aria-label="Изумительно" />
+												</div>
+											</div>
+											<a href="" class="item-dishes__button">ORDER</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="recipes">
+					<div class="recipes__container">
+						<div class="recipes__title title title_recipes">Recipes From Our Chefs</div>
+						<div class="recipes__content">
+							<div class="recipes__body">
+								<div class="body-recipes">
+									<a href="" class="body-recipes__link">
+										<img src="img/recipes/arrow.svg" alt="end" />
+									</a>
+									<div class="body-recipes__label">breakfast</div>
+									<div class="body-recipes__date">05 Jul 2016</div>
+									<div class="body-recipes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+									<div class="body-recipes__autor">Jason Keller</div>
+									<div class="body-recipes__info recipes-info">
+										<a href="" class="recipes-info__views">275</a>
+										<a href="" class="recipes-info__comments">12</a>
+									</div>
+								</div>
+							</div>
+							<div class="recipes__rows">
+								<div class="recipes__item">
+									<div class="item-recipes">
+										<div class="item-recipes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div>
+										<div class="item-recipes__bottom bottom-item-recipes">
+											<div class="bottom-item-recipes__components">
+												<div class="bottom-item-recipes__label">lunch</div>
+												<div class="bottom-item-recipes__date">07 Jan 2016</div>
+											</div>
+											<div class="bottom-item-recipes__info recipes-info">
+												<a href="" class="recipes-info__views">275</a>
+												<a href="" class="recipes-info__comments">12</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="recipes__item">
+									<div class="item-recipes">
+										<div class="item-recipes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+										<div class="item-recipes__bottom bottom-item-recipes">
+											<div class="bottom-item-recipes__components">
+												<div class="bottom-item-recipes__label">dinner</div>
+												<div class="bottom-item-recipes__date">07 Jan 2016</div>
+											</div>
+											<div class="bottom-item-recipes__info recipes-info">
+												<a href="" class="recipes-info__views">275</a>
+												<a href="" class="recipes-info__comments">12</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="recipes__item">
+									<div class="item-recipes">
+										<div class="item-recipes__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
+										<div class="item-recipes__bottom bottom-item-recipes">
+											<div class="bottom-item-recipes__components">
+												<div class="bottom-item-recipes__label">sweets</div>
+												<div class="bottom-item-recipes__date">07 Jan 2016</div>
+											</div>
+											<div class="bottom-item-recipes__info recipes-info">
+												<a href="" class="recipes-info__views">275</a>
+												<a href="" class="recipes-info__comments">12</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer"><p>I am footer</p></footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
